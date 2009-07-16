@@ -10,332 +10,333 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
+"Plural-Forms: nplurals=2; plural=(n==1? 0 : 1);\n"
 
 #: \app\webroot\test.php:99
 #: \cake\console\libs\templates\skel\webroot\test.php:99
 msgid "Debug setting does not allow access to this url."
-msgstr ""
+msgstr "Les paramètres de debug n'autorisent pas l'accès à cette url."
 
 #: \cake\console\error.php:84
 #: \cake\libs\view\errors\error404.ctp:28
 msgid "The requested address %s was not found on this server."
-msgstr ""
+msgstr "L'adresse demandée %s est introuvable sur ce serveur."
 
 #: \cake\console\error.php:96
 msgid "Missing Controller '%s'"
-msgstr ""
+msgstr "Contrôleur '%s' manquant"
 
 #: \cake\console\error.php:107
 msgid "Missing Method '%s' in '%s'"
-msgstr ""
+msgstr "Méthode '%s' manquante dans '%s'"
 
 #: \cake\console\error.php:118
 msgid "Trying to access private method '%s' in '%s'"
-msgstr ""
+msgstr "Tentative d'accès à une méthode privée '%s' dans '%s'"
 
 #: \cake\console\error.php:129
 msgid "Missing database table '%s' for model '%s'"
-msgstr ""
+msgstr "Table '%s' manquante dans la base de données pour le modèle '%s'"
 
 #: \cake\console\error.php:139
 msgid "Missing Database"
-msgstr ""
+msgstr "Base de données manquante"
 
 #: \cake\console\error.php:150
 msgid "Missing View '%s' for '%s' in '%s'"
-msgstr ""
+msgstr "Vue '%s' manquante pour '%s' dans '%s'"
 
 #: \cake\console\error.php:161
 msgid "Missing Layout '%s'"
-msgstr ""
+msgstr "Gabarit '%s' manquant"
 
 #: \cake\console\error.php:172
 msgid "Missing Database Connection. Try 'cake bake'"
-msgstr ""
+msgstr "Connection manquante à la base de données. Essayez 'cake bake'"
 
 #: \cake\console\error.php:183
 msgid "Missing Helper file '%s' for '%s'"
-msgstr ""
+msgstr "Fichier d'assistant '%s' manquant pour '%s'"
 
 #: \cake\console\error.php:194
 msgid "Missing Helper class '%s' in '%s'"
-msgstr ""
+msgstr "Classe de l'assistant '%s' manquante pour '%s'"
 
 #: \cake\console\error.php:205
 msgid "Missing Component file '%s' for '%s'"
-msgstr ""
+msgstr "Fichier du composant '%s' manquant pour '%s'"
 
 #: \cake\console\error.php:216
 msgid "Missing Component class '%s' in '%s'"
-msgstr ""
+msgstr "Classe du composant '%s' manquante dans '%s'"
 
 #: \cake\console\error.php:227
 msgid "Missing model '%s'"
-msgstr ""
+msgstr "Modèle '%s' manquant"
 
 #: \cake\console\libs\acl.php:78
 msgid "Error: Your current Cake configuration is set to"
-msgstr ""
+msgstr "Erreur : votre configuration actuelle de Cake mentionne"
 
 #: \cake\console\libs\acl.php:79
 msgid "an ACL implementation other than DB. Please change"
-msgstr ""
+msgstr "une implémentation d'ACL différente de la base de données. Merci de changer"
 
 #: \cake\console\libs\acl.php:80
 msgid "your core config to reflect your decision to use"
-msgstr ""
+msgstr "la configuration de votre coeur pour refléter la décision d'utiliser"
 
 #: \cake\console\libs\acl.php:81
 msgid "DbAcl before attempting to use this script"
-msgstr ""
+msgstr "DbAcl avant d'essayer d'utiliser ce script"
 
 #: \cake\console\libs\acl.php:83
 msgid "Current ACL Classname: %s"
-msgstr ""
+msgstr "Nom de classe ACL actuel : %s"
 
 #: \cake\console\libs\acl.php:91
 #: \cake\console\libs\bake.php:74
 #: \cake\console\libs\i18n.php:61
 msgid "Your database configuration was not found. Take a moment to create one."
-msgstr ""
+msgstr "La configuration de votre base de données n'a pas été trouvée. Merci de prendre le temps d'en créer une."
 
 #: \cake\console\libs\acl.php:110
 msgid "Available ACL commands:"
-msgstr ""
+msgstr "Commandes ACL disponibles : "
 
 #: \cake\console\libs\acl.php:122
 msgid "For help, run the 'help' command.  For help on a specific command, run 'help <command>'"
-msgstr ""
+msgstr "Pour de l'aide, appelez la commande 'help'. Pour de l'aide sur une commande spécifique, appelez 'help <commande>'"
 
 #: \cake\console\libs\acl.php:151
 msgid "Could not find parent node using reference \"%s\""
-msgstr ""
+msgstr "Impossible de trouver le noeud parent en utilisant la référence \"%s\""
 
 #: \cake\console\libs\acl.php:169
 msgid "/ can not be used as an alias!"
-msgstr ""
+msgstr "/ ne peut pas être utilisé comme alias !"
 
 #: \cake\console\libs\acl.php:169
 msgid "\\t/ is the root, please supply a sub alias"
-msgstr ""
+msgstr "\\t/ est la racine, merci de fournir un sous alias"
 
 #: \cake\console\libs\acl.php:177
 msgid "New %s '%s' created.\n"
-msgstr ""
+msgstr "Nouveau %s '%s' créé.\n"
 
 #: \cake\console\libs\acl.php:179
 msgid "There was a problem creating a new %s '%s'."
-msgstr ""
+msgstr "Il y a eu un problème lors de la création d'un nouveau %s '%s'."
 
 #: \cake\console\libs\acl.php:192
 msgid "Node Not Deleted"
-msgstr ""
+msgstr "Noeud non supprimé"
 
 #: \cake\console\libs\acl.php:192
 msgid "There was an error deleting the %s. Check that the node exists"
-msgstr ""
+msgstr "Une erreur est survenue lors de la suppression de %s. Vérifiez que le noeud existe"
 
 #: \cake\console\libs\acl.php:194
 msgid "%s deleted"
-msgstr ""
+msgstr "%s supprimé"
 
 #: \cake\console\libs\acl.php:214
 msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
-msgstr ""
+msgstr "Erreur lors de la définition d'un nouveau parent. Merci de vérifiez que le noeud parent existe, et n'est pas un descendant du noeud spécifié."
 
 #: \cake\console\libs\acl.php:216
 msgid "Node parent set to %s"
-msgstr ""
+msgstr "Noeud parent fixé à %s"
 
 #: \cake\console\libs\acl.php:231
 msgid "Supplied Node '%s' not found"
-msgstr ""
+msgstr "Noeud fourni '%s' introuvable"
 
 #: \cake\console\libs\acl.php:231;315;317;459
 msgid "No tree returned."
-msgstr ""
+msgstr "Aucun arbre retourné."
 
 #: \cake\console\libs\acl.php:247
 msgid "%s is allowed."
-msgstr ""
+msgstr "%s est autorisé."
 
 #: \cake\console\libs\acl.php:249
 msgid "%s is not allowed."
-msgstr ""
+msgstr "%s n'est pas autorisé."
 
 #: \cake\console\libs\acl.php:262
 msgid "Permission granted."
-msgstr ""
+msgstr "Permission accordée."
 
 #: \cake\console\libs\acl.php:264
 msgid "Permission was not granted."
-msgstr ""
+msgstr "La permission n'a pas été accordée."
 
 #: \cake\console\libs\acl.php:277
 msgid "Permission denied."
-msgstr ""
+msgstr "Permission refusée."
 
 #: \cake\console\libs\acl.php:279
 msgid "Permission was not denied."
-msgstr ""
+msgstr "La permission n'a pas été refusée."
 
 #: \cake\console\libs\acl.php:292
 msgid "Permission inherited."
-msgstr ""
+msgstr "Permission héritée."
 
 #: \cake\console\libs\acl.php:294
 msgid "Permission was not inherited."
-msgstr ""
+msgstr "La permission n'a pas été héritée."
 
 #: \cake\console\libs\acl.php:315;317;459
 #: \cake\console\libs\api.php:94
 #: \cake\libs\folder.php:581
 msgid "%s not found"
-msgstr ""
+msgstr "%s introuvable"
 
 #: \cake\console\libs\acl.php:358
 msgid "Usage: cake acl <command> <arg1> <arg2>..."
-msgstr ""
+msgstr "Usage : cake acl <commande> <arg1> <arg2> ..."
 
 #: \cake\console\libs\acl.php:360
 msgid "Commands:"
-msgstr ""
+msgstr "Commandes : "
 
 #: \cake\console\libs\acl.php:364
 msgid "Creates a new ACL object <node> under the parent specified by <parent>, an id/alias."
-msgstr ""
+msgstr "Crée un nouvel objet ACL <noeud> sous le parent spécifié par <parent>, un id / alias."
 
 #: \cake\console\libs\acl.php:365
 msgid "The <parent> and <node> references can be in one of the following formats:"
-msgstr ""
+msgstr "Les références <parent> et <node> peuvent être dans l'un des formats suivant :"
 
 #: \cake\console\libs\acl.php:366
 msgid "<model>.<id> - The node will be bound to a specific record of the given model"
-msgstr ""
+msgstr "<modèle>.<id> - Le noeud sera lié à un enregistrement spécifique du modèle donné"
 
 #: \cake\console\libs\acl.php:367
 msgid "<alias> - The node will be given a string alias (or path, in the case of <parent>),"
-msgstr ""
+msgstr "<alias> - Un alias sera attribué au noeud (ou chemin, dans le cas de <parent>),"
 
 #: \cake\console\libs\acl.php:368
 msgid "i.e. 'John'.  When used with <parent>, this takes the form of an alias path,"
-msgstr ""
+msgstr "i.e 'Jean'. Lorsque utilisé avec <parent>, cela prend la forme d'un alias de chemin, "
 
 #: \cake\console\libs\acl.php:369
 msgid "i.e. <group>/<subgroup>/<parent>."
-msgstr ""
+msgstr "i.e. <groupe>/<sous-groupe>/<parent>."
 
 #: \cake\console\libs\acl.php:370
 msgid "To add a node at the root level, enter 'root' or '/' as the <parent> parameter."
-msgstr ""
+msgstr "Pour ajouter un noeud à la racine, saisissez 'root' ou '/' pour le paramètre <parent>."
 
 #: \cake\console\libs\acl.php:373
 msgid "Deletes the ACL object with the given <node> reference (see 'create' for info on node references)."
-msgstr ""
+msgstr "Supprime l'objet ACL ayant la référence <noeud> donnée (voir 'create' pour des informations dur les références de noeud)."
 
 #: \cake\console\libs\acl.php:376
 msgid "Moves the ACL object specified by <node> beneath the parent ACL object specified by <parent>."
-msgstr ""
+msgstr "Déplace l'objet ACL spécifié par <noeud> sous l'objet ACL parent spécifié par <parent>."
 
 #: \cake\console\libs\acl.php:377
 msgid "To identify the node and parent, use the row id."
-msgstr ""
+msgstr "Pour identifier le noeud et son parent, utilisez la colonne id."
 
 #: \cake\console\libs\acl.php:380
 msgid "Returns the path to the ACL object specified by <node>. This command"
-msgstr ""
+msgstr "Retourne le chemin vers l'objet ACL spécifié par <noeud>. Cette commande "
 
 #: \cake\console\libs\acl.php:381
 msgid "is useful in determining the inhertiance of permissions for a certain"
-msgstr ""
+msgstr "est utile pour déterminer l'héritage des permissions pour un certain "
 
 #: \cake\console\libs\acl.php:382
 msgid "object in the tree."
-msgstr ""
+msgstr "objet dans l'arbre."
 
 #: \cake\console\libs\acl.php:383;387;393;399;404;409
 msgid "For more detailed parameter usage info, see help for the 'create' command."
-msgstr ""
+msgstr "Pour plus de détails sur l'utilisation des paramètres, regardez l'aide de la commande 'create'."
 
 #: \cake\console\libs\acl.php:385;389;395;401
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: \cake\console\libs\acl.php:386
 msgid "Use this command to check ACL permissions."
-msgstr ""
+msgstr "Utilisez cette commande pour vérifier les permissions ACL."
 
 #: \cake\console\libs\acl.php:390
 msgid "Use this command to grant ACL permissions. Once executed, the ARO"
-msgstr ""
+msgstr "Utilisez cette commande pour accorder les permissions ACL. Une fois exécutée, l'ARO "
 
 #: \cake\console\libs\acl.php:391
 msgid "specified (and its children, if any) will have ALLOW access to the"
-msgstr ""
+msgstr "spécifié (et ces enfants si il en a) auront un accès ALLOW (autorisés) à "
 
 #: \cake\console\libs\acl.php:392;398
 msgid "specified ACO action (and the ACO's children, if any)."
-msgstr ""
+msgstr "l'action ACO spécifiée (et les enfants de cet ACO si il en a)."
 
 #: \cake\console\libs\acl.php:396
 msgid "Use this command to deny ACL permissions. Once executed, the ARO"
-msgstr ""
+msgstr "Utilisez cette commande pour refuser les permissions ACL. Une fois exécutée, l'ARO"
 
 #: \cake\console\libs\acl.php:397
 msgid "specified (and its children, if any) will have DENY access to the"
-msgstr ""
+msgstr "spécifié (et ces enfants si il en a) auront un accès DENY (refusé) à "
 
 #: \cake\console\libs\acl.php:402
 msgid "Use this command to force a child ARO object to inherit its"
-msgstr ""
+msgstr "Utilisez cette commande pour forcer un objet ARO enfant à hériter ses "
 
 #: \cake\console\libs\acl.php:403
 msgid "permissions settings from its parent."
-msgstr ""
+msgstr "paramètres de permissions de son parent."
 
 #: \cake\console\libs\acl.php:407
 msgid "The view command will return the ARO or ACO tree. The optional"
-msgstr ""
+msgstr "La commande view retournera l'arbre des ARO ou ACO."
 
 #: \cake\console\libs\acl.php:408
 msgid "id/alias parameter allows you to return only a portion of the requested tree."
-msgstr ""
+msgstr "Le paramètre optionnel id / alias vous permet de retourner seulement une portion de l'arbre demandé."
 
 #: \cake\console\libs\acl.php:412
 msgid "Uses this command : cake schema run create DbAcl"
-msgstr ""
+msgstr "Utilise cette commande : cake schema run create DbAcl"
 
 #: \cake\console\libs\acl.php:415
 msgid "Displays this help message, or a message on a specific command."
-msgstr ""
+msgstr "Affiche ce message d'aide, ou un message sur une commande spécifique."
 
 #: \cake\console\libs\acl.php:426
 msgid "Command '%s' not found"
-msgstr ""
+msgstr "Commande '%s' introuvable"
 
 #: \cake\console\libs\acl.php:439
 msgid "Missing/Unknown node type: '%s'"
-msgstr ""
+msgstr "Type de noeud Inconnu/Manquant : '%s'"
 
 #: \cake\console\libs\acl.php:439
 msgid "Please specify which ACL object type you wish to create."
-msgstr ""
+msgstr "Merci de spécifier quel type d'objet ACL vous souhaitez créer."
 
 #: \cake\console\libs\api.php:103
 msgid "%s::%s() could not be found"
-msgstr ""
+msgstr "%s::%s() est introuvable"
 
 #: \cake\console\libs\api.php:120
 msgid "Select a number to see the more information about a specific method. q to quit. l to list."
-msgstr ""
+msgstr "Sélectionnez un nombre pour avoir plus d'informations sur une méthode spécifique. q pour quitter. l pour lister."
 
 #: \cake\console\libs\api.php:122
 msgid "Done"
-msgstr ""
+msgstr "Effectué"
 
 #: \cake\console\libs\api.php:193
 msgid "%s could not be found"
-msgstr ""
+msgstr "%s est introuvable"
 
 #: \cake\console\libs\bake.php:56
 #: \cake\console\libs\tasks\plugin.php:96
@@ -343,198 +344,202 @@ msgid ""
 "%s directory could not be found.\n"
 "Be sure you have created %s"
 msgstr ""
+"Le dossier %s est introuvable.\n"
+"Vérifiez que vous avez créé %s"
 
 #: \cake\console\libs\bake.php:87
 msgid "What would you like to Bake?"
-msgstr ""
+msgstr "Que voulez vous Cuisiner ?"
 
 #: \cake\console\libs\bake.php:108
 msgid "You have made an invalid selection. Please choose a type of class to Bake by entering D, M, V, or C."
-msgstr ""
+msgstr "Vous avez effectué une sélection invalide. Merci de choisir un type de classe à Cuisiner en saisissant D, M, V ou C."
 
 #: \cake\console\libs\bake.php:150
 msgid "%s Model was baked."
-msgstr ""
+msgstr "Le modèle %s a été cuisiné."
 
 #: \cake\console\libs\bake.php:160
 msgid "%s Controller was baked."
-msgstr ""
+msgstr "Le contrôleur %s a été cuisiné."
 
 #: \cake\console\libs\bake.php:169
+#, fuzzy
 msgid "Bake All complete"
-msgstr ""
+msgstr "Tout Cuisiner terminé"
 
 #: \cake\console\libs\bake.php:172
+#, fuzzy
 msgid "Bake All could not continue without a valid model"
-msgstr ""
+msgstr "Tout Cuisiner ne peut pas continuer sans un modèle valide"
 
 #: \cake\console\libs\i18n.php:72
 msgid "I18n Shell"
-msgstr ""
+msgstr "Shell I18n"
 
 #: \cake\console\libs\i18n.php:74
 msgid "[E]xtract POT file from sources"
-msgstr ""
+msgstr "[E]xtraire un fichier POT depuis les sources"
 
 #: \cake\console\libs\i18n.php:75
 msgid "[I]nitialize i18n database table"
-msgstr ""
+msgstr "[I]nitialiser la table i18n de la base de données"
 
 #: \cake\console\libs\i18n.php:76
 msgid "[H]elp"
-msgstr ""
+msgstr "[H] Aide"
 
 #: \cake\console\libs\i18n.php:77
 msgid "[Q]uit"
-msgstr ""
+msgstr "[Q]uitter"
 
 #: \cake\console\libs\i18n.php:79
 msgid "What would you like to do?"
-msgstr ""
+msgstr "Que voulez vous faire ?"
 
 #: \cake\console\libs\i18n.php:94
 msgid "You have made an invalid selection. Please choose a command to execute by entering E, I, H, or Q."
-msgstr ""
+msgstr "Vous avez fait une sélection invalide. Merci de choisir une commande à exécuter en saisissant E, I, H ou Q."
 
 #: \cake\console\libs\i18n.php:115
 msgid "I18n Shell:"
-msgstr ""
+msgstr "Shell I18n : "
 
 #: \cake\console\libs\i18n.php:117
 msgid "I18n Shell initializes i18n database table for your application"
-msgstr ""
+msgstr "Le shell I18n initialise la table i18n de votre base de données pour votre application"
 
 #: \cake\console\libs\i18n.php:118
 msgid "and generates .pot file(s) with translations."
-msgstr ""
+msgstr "et génère des fichiers .pot avec les traductions."
 
 #: \cake\console\libs\i18n.php:120
 msgid "usage:"
-msgstr ""
+msgstr "usage : "
 
 #: \cake\console\libs\schema.php:108
 msgid "Schema could not be found"
-msgstr ""
+msgstr "Le schema est introuvable"
 
 #: \cake\console\libs\schema.php:173;176
 msgid "Schema file: %s generated"
-msgstr ""
+msgstr "Fichier de schéma : %s généré"
 
 #: \cake\console\libs\schema.php:191
 msgid "Schema could not be loaded"
-msgstr ""
+msgstr "Le schéma ne peut être chargé"
 
 #: \cake\console\libs\schema.php:210
 msgid "SQL dump file created in %s"
-msgstr ""
+msgstr "Fichier SQL de dump créé dans %s"
 
 #: \cake\console\libs\schema.php:213
 msgid "SQL dump could not be created"
-msgstr ""
+msgstr "Le fichier SQL de dump ne peut pas être créé"
 
 #: \cake\console\libs\schema.php:245
 msgid "Performing a dry run."
-msgstr ""
+msgstr "Effectue un essai."
 
 #: \cake\console\libs\schema.php:257
 msgid "%s could not be loaded"
-msgstr ""
+msgstr "%s ne peut être chargé"
 
 #: \cake\console\libs\schema.php:274
 msgid "command not found"
-msgstr ""
+msgstr "commande introuvable"
 
 #: \cake\console\libs\schema.php:299;345
 msgid "Schema is up to date."
-msgstr ""
+msgstr "Le schéma est à jour."
 
 #: \cake\console\libs\schema.php:303
 msgid "The following table(s) will be dropped."
-msgstr ""
+msgstr "Les tables suivantes seront supprimées."
 
 #: \cake\console\libs\schema.php:306
 msgid "Are you sure you want to drop the table(s)?"
-msgstr ""
+msgstr "Etes vous sûr de vouloir supprimer les tables ?"
 
 #: \cake\console\libs\schema.php:311
 msgid "The following table(s) will be created."
-msgstr ""
+msgstr "Les tables suivantes seront créées."
 
 #: \cake\console\libs\schema.php:314
 msgid "Are you sure you want to create the table(s)?"
-msgstr ""
+msgstr "Etes vous sûr de vouloir créer les tables ?"
 
 #: \cake\console\libs\schema.php:319
 msgid "End create."
-msgstr ""
+msgstr "Fin de la création."
 
 #: \cake\console\libs\schema.php:349
 msgid "The following statements will run."
-msgstr ""
+msgstr "Les expressions ci-après seront exécutés."
 
 #: \cake\console\libs\schema.php:351
 msgid "Are you sure you want to alter the tables?"
-msgstr ""
+msgstr "Etes vous sûr de vouloir modifier les tables ?"
 
 #: \cake\console\libs\schema.php:353
 msgid "Updating Database..."
-msgstr ""
+msgstr "Mise à jour de la base de données ..."
 
 #: \cake\console\libs\schema.php:357
 msgid "End update."
-msgstr ""
+msgstr "Fin de la mise à jour."
 
 #: \cake\console\libs\schema.php:366
 msgid "Sql could not be run"
-msgstr ""
+msgstr "Sql ne peut pas être exécuté"
 
 #: \cake\console\libs\schema.php:376
 msgid "%s is up to date."
-msgstr ""
+msgstr "%s est à jour."
 
 #: \cake\console\libs\schema.php:379
 msgid "Dry run for %s :"
-msgstr ""
+msgstr "Essai pour %s : "
 
 #: \cake\console\libs\schema.php:394
 msgid "%s updated."
-msgstr ""
+msgstr "%s mis à jour."
 
 #: \cake\console\libs\shell.php:427
 msgid "Creating file %s"
-msgstr ""
+msgstr "Création du fichier %s"
 
 #: \cake\console\libs\shell.php:429
 msgid "File exists, overwrite?"
-msgstr ""
+msgstr "Le fichier existe, écraser ?"
 
 #: \cake\console\libs\shell.php:431
 msgid "Quitting."
-msgstr ""
+msgstr "Quitter."
 
 #: \cake\console\libs\shell.php:434
 msgid "Skip"
-msgstr ""
+msgstr "Passer"
 
 #: \cake\console\libs\shell.php:445
 msgid "Wrote"
-msgstr ""
+msgstr "Ecrit"
 
 #: \cake\console\libs\shell.php:448
 msgid "Error! Could not write to"
-msgstr ""
+msgstr "Erreur ! Impossible d'écrire sur "
 
 #: \cake\console\libs\tasks\controller.php:125
 msgid "Would you like to build your controller interactively?"
-msgstr ""
+msgstr "Voulez vous construire votre contrôleur de manière interactive ?"
 
 #: \cake\console\libs\tasks\controller.php:127
 msgid "Warning: Choosing no will overwrite the %sController."
-msgstr ""
+msgstr "Attention : choisir 'non' écrasera %sController."
 
 #: \cake\console\libs\tasks\controller.php:134
 msgid "Would you like to use scaffolding?"
-msgstr ""
+msgstr "Voulez vous utiliser le scaffolding (prototypage rapide) ?"
 
 #: \cake\console\libs\tasks\controller.php:138;164
 msgid "Would you like to include some basic class methods (index(), add(), view(), edit())?"
@@ -1340,91 +1345,91 @@ msgstr ""
 #: \cake\libs\view\helpers\form.php:286;1096
 #: \cake\libs\view\scaffolds\edit.ctp:29
 msgid "Submit"
-msgstr ""
+msgstr "Envoyer"
 
 #: \cake\libs\view\helpers\form.php:421
 msgid "Error in field %s"
-msgstr ""
+msgstr "Erreur dans le champ %s"
 
 #: \cake\libs\view\helpers\form.php:512
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: \cake\libs\view\helpers\form.php:518
 #: \cake\libs\view\scaffolds\index.ctp:66
 #: \cake\libs\view\scaffolds\view.ctp:145
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #: \cake\libs\view\helpers\form.php:1809
 msgid "January"
-msgstr ""
+msgstr "Janvier"
 
 #: \cake\libs\view\helpers\form.php:1810
 msgid "February"
-msgstr ""
+msgstr "Février"
 
 #: \cake\libs\view\helpers\form.php:1811
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: \cake\libs\view\helpers\form.php:1812
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: \cake\libs\view\helpers\form.php:1813
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: \cake\libs\view\helpers\form.php:1814
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: \cake\libs\view\helpers\form.php:1815
 msgid "July"
-msgstr ""
+msgstr "Juillet"
 
 #: \cake\libs\view\helpers\form.php:1816
 msgid "August"
-msgstr ""
+msgstr "Août"
 
 #: \cake\libs\view\helpers\form.php:1817
 msgid "September"
-msgstr ""
+msgstr "Septembre"
 
 #: \cake\libs\view\helpers\form.php:1818
 msgid "October"
-msgstr ""
+msgstr "Octobre"
 
 #: \cake\libs\view\helpers\form.php:1819
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: \cake\libs\view\helpers\form.php:1820
 msgid "December"
-msgstr ""
+msgstr "Décembre"
 
 #: \cake\libs\view\helpers\number.php:59
 msgid "%d KB"
-msgstr ""
+msgstr "%d Ko"
 
 #: \cake\libs\view\helpers\number.php:61
 msgid "%.2f MB"
-msgstr ""
+msgstr "%.2f Mo"
 
 #: \cake\libs\view\helpers\number.php:63
 msgid "%.2f GB"
-msgstr ""
+msgstr "%.2f Go"
 
 #: \cake\libs\view\helpers\number.php:65
 msgid "%.2f TB"
-msgstr ""
+msgstr "%.2f To"
 
 #: \cake\libs\view\helpers\number.php:57
 msgid "%d Byte"
 msgid_plural "%d Bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Octet"
+msgstr[1] "%d Octets"
 
 #: \cake\libs\view\helpers\session.php:176
 msgid "You can not write to a Session from the view"
@@ -1436,65 +1441,65 @@ msgstr ""
 
 #: \cake\libs\view\helpers\time.php:111
 msgid "Today, %s"
-msgstr ""
+msgstr "Aujourd'hui, %s"
 
 #: \cake\libs\view\helpers\time.php:113
 msgid "Yesterday, %s"
-msgstr ""
+msgstr "Hier, %s"
 
 #: \cake\libs\view\helpers\time.php:424
 msgid "on %s"
-msgstr ""
+msgstr "le %s"
 
 #: \cake\libs\view\helpers\time.php:458
 msgid "%s ago"
-msgstr ""
+msgstr "il y a %s"
 
 #: \cake\libs\view\helpers\time.php:486
 msgid "days"
-msgstr ""
+msgstr "jours"
 
 #: \cake\libs\view\helpers\time.php:428
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "année"
+msgstr[1] "années"
 
 #: \cake\libs\view\helpers\time.php:429;434
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mois"
+msgstr[1] "mois"
 
 #: \cake\libs\view\helpers\time.php:430;435;439
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "semaine"
+msgstr[1] "semaines"
 
 #: \cake\libs\view\helpers\time.php:431;436;440;443
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "jour"
+msgstr[1] "jours"
 
 #: \cake\libs\view\helpers\time.php:444;447
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "heure"
+msgstr[1] "heures"
 
 #: \cake\libs\view\helpers\time.php:448;451
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "minute"
+msgstr[1] "minutes"
 
 #: \cake\libs\view\helpers\time.php:454
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "seconde"
+msgstr[1] "secondes"
 
 #: \cake\libs\view\pages\home.ctp:28
 msgid "Release Notes for CakePHP %s."
