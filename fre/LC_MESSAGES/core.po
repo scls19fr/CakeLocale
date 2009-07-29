@@ -551,7 +551,7 @@ msgstr ""
 
 #: \cake\console\libs\tasks\controller.php:144
 msgid "Would you like this controller to use other helpers besides HtmlHelper and FormHelper?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer"
 
 #: \cake\console\libs\tasks\controller.php:147
 msgid ""
@@ -594,11 +594,11 @@ msgstr ""
 #: \cake\console\libs\tasks\controller.php:539
 #: \cake\console\libs\tasks\model.php:792
 msgid "Exit"
-msgstr ""
+msgstr "Quitter"
 
 #: \cake\console\libs\tasks\controller.php:544
 msgid "Error:"
-msgstr ""
+msgstr "Erreur :"
 
 #: \cake\console\libs\tasks\controller.php:545
 msgid ""
@@ -1672,29 +1672,29 @@ msgstr ""
 #: \cake\libs\view\scaffolds\index.ctp:67
 #: \cake\libs\view\scaffolds\view.ctp:146
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: \cake\libs\view\scaffolds\edit.ctp:35
 #: \cake\libs\view\scaffolds\index.ctp:67
 #: \cake\libs\view\scaffolds\view.ctp:58;146
 msgid "Are you sure you want to delete"
-msgstr ""
+msgstr "Etes-vous sûr de vouloir supprimer"
 
 #: \cake\libs\view\scaffolds\edit.ctp:37
 msgid "List"
-msgstr ""
+msgstr "Lister"
 
 #: \cake\libs\view\scaffolds\edit.ctp:43
 #: \cake\libs\view\scaffolds\index.ctp:89
 #: \cake\libs\view\scaffolds\view.ctp:59;66
 msgid "List %s"
-msgstr ""
+msgstr "Lister %s"
 
 #: \cake\libs\view\scaffolds\edit.ctp:44
 #: \cake\libs\view\scaffolds\index.ctp:90
 #: \cake\libs\view\scaffolds\view.ctp:60;67;155
 msgid "New %s"
-msgstr ""
+msgstr "Nouveau %s"
 
 #: \cake\libs\view\scaffolds\index.ctp:37
 msgid "Actions"
@@ -1703,27 +1703,27 @@ msgstr ""
 #: \cake\libs\view\scaffolds\index.ctp:65
 #: \cake\libs\view\scaffolds\view.ctp:144
 msgid "View"
-msgstr ""
+msgstr "Voir"
 
 #: \cake\libs\view\scaffolds\index.ctp:77
 msgid "previous"
-msgstr ""
+msgstr "précédent"
 
 #: \cake\libs\view\scaffolds\index.ctp:79
 msgid "next"
-msgstr ""
+msgstr "suivant"
 
 #: \cake\libs\view\scaffolds\view.ctp:26
 msgid "View %s"
-msgstr ""
+msgstr "Voir %s"
 
 #: \cake\libs\view\scaffolds\view.ctp:57;98
 msgid "Edit %s"
-msgstr ""
+msgstr "Editer %s"
 
 #: \cake\libs\view\scaffolds\view.ctp:58
 msgid "Delete %s"
-msgstr ""
+msgstr "Supprimer %s"
 
 #: \cake\libs\view\scaffolds\view.ctp:79;118
 msgid "Related %s"
