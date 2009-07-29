@@ -364,14 +364,12 @@ msgid "%s Controller was baked."
 msgstr "Le contrôleur %s a été cuisiné."
 
 #: \cake\console\libs\bake.php:169
-#, fuzzy
 msgid "Bake All complete"
-msgstr "Tout Cuisiner terminé"
+msgstr "Cuisson Totale terminé"
 
 #: \cake\console\libs\bake.php:172
-#, fuzzy
 msgid "Bake All could not continue without a valid model"
-msgstr "Tout Cuisiner ne peut pas continuer sans un modèle valide"
+msgstr "La Cuisson Totale ne peut pas continuer sans un modèle valide"
 
 #: \cake\console\libs\i18n.php:72
 msgid "I18n Shell"
@@ -1180,23 +1178,23 @@ msgstr "Vous devez spécifier une table pour opérer sur les contraintes"
 
 #: \cake\libs\model\datasources\dbo\dbo_oracle.php:615
 msgid "DboOracle::constraint() accepts only enable, disable, or list"
-msgstr ""
+msgstr "DboOracle::constraint() n'accepte que enable, disable, ou list"
 
 #: \cake\libs\view\helper.php:143
 msgid "Method %1$s::%2$s does not exist"
-msgstr ""
+msgstr "La méthode %1$s::%2$s n'existe pas"
 
 #: \cake\libs\view\view.php:402
 msgid "Error in view %s, got: <blockquote>%s</blockquote>"
-msgstr ""
+msgstr "Erreur dans la vue %s : <blockquote>%s</blockquote>"
 
 #: \cake\libs\view\view.php:457
 msgid "Error in layout %s, got: <blockquote>%s</blockquote>"
-msgstr ""
+msgstr "Erreur dans le gabarit %s : <blockquote>%s</blockquote>"
 
 #: \cake\libs\view\elements\dump.ctp:26
 msgid "Controller dump:"
-msgstr ""
+msgstr "Dump du contrôleur :"
 
 #: \cake\libs\view\errors\error404.ctp:27
 #: \cake\libs\view\errors\missing_action.ctp:27;31
@@ -1214,19 +1212,19 @@ msgstr ""
 #: \cake\libs\view\errors\private_action.ctp:27
 #: \cake\libs\view\errors\scaffold_error.ctp:27
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 #: \cake\libs\view\errors\missing_action.ctp:25
 msgid "Missing Method in %s"
-msgstr ""
+msgstr "Méthode manquante dans %s"
 
 #: \cake\libs\view\errors\missing_action.ctp:28
 msgid "The action %1$s is not defined in controller %2$s"
-msgstr ""
+msgstr "L'action %1$s n'est pas définie dans le contrôleur %2$s"
 
 #: \cake\libs\view\errors\missing_action.ctp:32
 msgid "Create %1$s%2$s in file: %3$s."
-msgstr ""
+msgstr "Créez %1$s%2$s dans le fichier : %3$s."
 
 #: \cake\libs\view\errors\missing_action.ctp:49
 #: \cake\libs\view\errors\missing_component_class.ctp:42
@@ -1243,22 +1241,22 @@ msgstr ""
 #: \cake\libs\view\errors\private_action.ctp:31
 #: \cake\libs\view\errors\scaffold_error.ctp:31
 msgid "Notice"
-msgstr ""
+msgstr "Attention"
 
 #: \cake\libs\view\errors\missing_action.ctp:50
 #: \cake\libs\view\errors\missing_connection.ctp:36
 msgid "If you want to customize this error message, create %s."
-msgstr ""
+msgstr "Si vous voulez adapter ce message d'erreur, créez %s."
 
 #: \cake\libs\view\errors\missing_component_class.ctp:28
 msgid "Component class %1$s in %2$s was not found."
-msgstr ""
+msgstr "La classe du Composant %1$s dans %2$s est introuvable."
 
 #: \cake\libs\view\errors\missing_component_class.ctp:32
 #: \cake\libs\view\errors\missing_component_file.ctp:32
 #: \cake\libs\view\errors\missing_model.ctp:32
 msgid "Create the class %s in file: %s"
-msgstr ""
+msgstr "Créez la classe %s dans le fichier : %s"
 
 #: \cake\libs\view\errors\missing_component_class.ctp:43
 #: \cake\libs\view\errors\missing_component_file.ctp:43
@@ -1273,82 +1271,82 @@ msgstr ""
 #: \cake\libs\view\errors\private_action.ctp:32
 #: \cake\libs\view\errors\scaffold_error.ctp:32
 msgid "If you want to customize this error message, create %s"
-msgstr ""
+msgstr "Si vous voulez adapter ce message d'erreur, créez %s"
 
 #: \cake\libs\view\errors\missing_component_file.ctp:28
 msgid "The component file was not found."
-msgstr ""
+msgstr "Le fichier du composant est introuvable."
 
 #: \cake\libs\view\errors\missing_connection.ctp:28
 msgid "%s requires a database connection"
-msgstr ""
+msgstr "%s a besoin d'une connexion à la base de données"
 
 #: \cake\libs\view\errors\missing_connection.ctp:32
 msgid "Confirm you have created the file : %s."
-msgstr ""
+msgstr "Confirmez que vous avez créé le fichier : %s."
 
 #: \cake\libs\view\errors\missing_controller.ctp:28
 msgid "%s could not be found."
-msgstr ""
+msgstr "%s est introuvable."
 
 #: \cake\libs\view\errors\missing_controller.ctp:32
 msgid "Create the class %s below in file: %s"
-msgstr ""
+msgstr "Créez la classe %s ci-dessous dans le fichier : %s"
 
 #: \cake\libs\view\errors\missing_helper_class.ctp:28
 msgid "The helper class <em>%s</em> can not be found or does not exist."
-msgstr ""
+msgstr "La classe Helper <em>%s</em> est introuvable ou n'existe pas."
 
 #: \cake\libs\view\errors\missing_helper_class.ctp:32
 #: \cake\libs\view\errors\missing_helper_file.ctp:32
 msgid "Create the class below in file: %s"
-msgstr ""
+msgstr "Créez la classe ci-dessous dans le fichier : %s"
 
 #: \cake\libs\view\errors\missing_helper_file.ctp:28
 msgid "The helper file %s can not be found or does not exist."
-msgstr ""
+msgstr "Le fichier Helper %s est introuvable ou n'existe pas."
 
 #: \cake\libs\view\errors\missing_layout.ctp:28
 msgid "The layout file %s can not be found or does not exist."
-msgstr ""
+msgstr "Le fichier gabarit %s est introuvable ou n'existe pas."
 
 #: \cake\libs\view\errors\missing_layout.ctp:32
 #: \cake\libs\view\errors\missing_scaffolddb.ctp:32
 #: \cake\libs\view\errors\missing_view.ctp:32
 msgid "Confirm you have created the file: %s"
-msgstr ""
+msgstr "Confirmez que vous avez créé le fichier : %s"
 
 #: \cake\libs\view\errors\missing_model.ctp:28
 msgid "<em>%s</em> could not be found."
-msgstr ""
+msgstr "<em>%s</em> est introuvable."
 
 #: \cake\libs\view\errors\missing_scaffolddb.ctp:28
 msgid "Scaffold requires a database connection"
-msgstr ""
+msgstr "Le scaffold a besoin d'une connexion à la base de données"
 
 #: \cake\libs\view\errors\missing_table.ctp:28
 msgid "Database table %1$s for model %2$s was not found."
-msgstr ""
+msgstr "La table %1$s pour le modèle %2$s est introuvable."
 
 #: \cake\libs\view\errors\missing_view.ctp:28
 msgid "The view for %1$s%2$s was not found."
-msgstr ""
+msgstr "La vue est introuvable pour %1$s%2$s."
 
 #: \cake\libs\view\errors\private_action.ctp:25
 msgid "Private Method in %s"
-msgstr ""
+msgstr "Méthode privée dans %s"
 
 #: \cake\libs\view\errors\private_action.ctp:28
 msgid "%s%s cannot be accessed directly."
-msgstr ""
+msgstr "%s%s n'est pas accessible directement."
 
 #: \cake\libs\view\errors\scaffold_error.ctp:25
 msgid "Scaffold Error"
-msgstr ""
+msgstr "Error de scaffolding"
 
 #: \cake\libs\view\errors\scaffold_error.ctp:28
 msgid "Method _scaffoldError in was not found in the controller"
-msgstr ""
+msgstr "La méthode _scaffoldError est introuvable dans le contrôleur"
 
 #: \cake\libs\view\helpers\form.php:286;1096
 #: \cake\libs\view\scaffolds\edit.ctp:29
@@ -1441,11 +1439,11 @@ msgstr[1] "%d Octets"
 
 #: \cake\libs\view\helpers\session.php:176
 msgid "You can not write to a Session from the view"
-msgstr ""
+msgstr "Vous ne pouvez pas écrire dans la Session depuis une vue"
 
 #: \cake\libs\view\helpers\text.php:331
 msgid "(TextHelper::flay) Deprecated: the Flay library is no longer supported and will be removed in a future version."
-msgstr ""
+msgstr "(TextHelper::flay) Déprécié: la librairie Flay n'est plus supportée et sera supprimée dans une version future."
 
 #: \cake\libs\view\helpers\time.php:111
 msgid "Today, %s"
@@ -1511,51 +1509,51 @@ msgstr[1] "secondes"
 
 #: \cake\libs\view\pages\home.ctp:28
 msgid "Release Notes for CakePHP %s."
-msgstr ""
+msgstr "Release Notes de CakePHP %s."
 
 #: \cake\libs\view\pages\home.ctp:29
 msgid "Read the changelog"
-msgstr ""
+msgstr "Lire le changelog"
 
 #: \cake\libs\view\pages\home.ctp:39
 msgid "Your tmp directory is writable."
-msgstr ""
+msgstr "Votre dossier tmp est inscriptible"
 
 #: \cake\libs\view\pages\home.ctp:43
 msgid "Your tmp directory is NOT writable."
-msgstr ""
+msgstr "Votre dossier tmp n'est PAS inscriptible"
 
 #: \cake\libs\view\pages\home.ctp:53
 msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
-msgstr ""
+msgstr "%s sera utilisé pour le cache. Afin de changer cette configuration, éditez APP/config/core.php"
 
 #: \cake\libs\view\pages\home.ctp:57
 msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
-msgstr ""
+msgstr "Votre cache ne fonctionne PAS. Merci de vérifier les paramètres dans APP/config/core.php"
 
 #: \cake\libs\view\pages\home.ctp:67
 msgid "Your database configuration file is present."
-msgstr ""
+msgstr "Le fichier de configuration de la base de données est présent."
 
 #: \cake\libs\view\pages\home.ctp:72
 msgid "Your database configuration file is NOT present."
-msgstr ""
+msgstr "Le fichier de configuration de la base de données n'est PAS présent."
 
 #: \cake\libs\view\pages\home.ctp:74
 msgid "Rename config/database.php.default to config/database.php"
-msgstr ""
+msgstr "Renommez config/database.php.default en config/database.php"
 
 #: \cake\libs\view\pages\home.ctp:89
 msgid "Cake is able to connect to the database."
-msgstr ""
+msgstr "Cake peut se connecter à la base de données."
 
 #: \cake\libs\view\pages\home.ctp:93
 msgid "Cake is NOT able to connect to the database."
-msgstr ""
+msgstr "Cake ne peut PAS se connecter à la base de données."
 
 #: \cake\libs\view\pages\home.ctp:99
 msgid "Editing this Page"
-msgstr ""
+msgstr "Editer cette Page"
 
 #: \cake\libs\view\pages\home.ctp:102
 msgid ""
@@ -1563,118 +1561,121 @@ msgid ""
 "To change its layout, create: APP/views/layouts/default.ctp.<br />\n"
 "You can also add some CSS styles for your pages at: APP/webroot/css."
 msgstr ""
+"Pour changer le contenu de cette page, créez : APP/views/pages/home.ctp.<br />\n"
+"Pour changer son gabarit, créez : APP/views/layouts/default.ctp.<br />\n"
+"Vous pouvez également ajouter des styles CSS à vos pages dans : APP/webroot/css."
 
 #: \cake\libs\view\pages\home.ctp:107
 msgid "Getting Started"
-msgstr ""
+msgstr "Commencer"
 
 #: \cake\libs\view\pages\home.ctp:112
 msgid "The 15 min Blog Tutorial"
-msgstr ""
+msgstr "Le tutoriel du blog en 15 min"
 
 #: \cake\libs\view\pages\home.ctp:114
 msgid "More about Cake"
-msgstr ""
+msgstr "En savoir plus à propos de Cake"
 
 #: \cake\libs\view\pages\home.ctp:116
 msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
-msgstr ""
+msgstr "CakePHP est un framework de développement rapide en PHP qui utilise des design patterns connus tels que Active Record, Association Data Mapping, Front Controller et MVC."
 
 #: \cake\libs\view\pages\home.ctp:119
 msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
-msgstr ""
+msgstr "Notre but premier est de proposer un framework structuré qui permet aux utilisateurs PHP de tous niveaux, de développer rapidement des applications web sans aucune perte en terme de flexibilité."
 
 #: \cake\libs\view\pages\home.ctp:123
 msgid "Cake Software Foundation"
-msgstr ""
+msgstr "Cake Software Foundation"
 
 #: \cake\libs\view\pages\home.ctp:124
 msgid "Promoting development related to CakePHP"
-msgstr ""
+msgstr "Promouvoir le développement lié à CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:125
 msgid "CakePHP"
-msgstr ""
+msgstr "CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:126
 msgid "The Rapid Development Framework"
-msgstr ""
+msgstr "Le framework de développement rapide"
 
 #: \cake\libs\view\pages\home.ctp:127
 msgid "CakePHP Documentation"
-msgstr ""
+msgstr "Documentation de CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:128
 msgid "Your Rapid Development Cookbook"
-msgstr ""
+msgstr "Votre livre de cuisine pour un développement rapide"
 
 #: \cake\libs\view\pages\home.ctp:129
 msgid "CakePHP API"
-msgstr ""
+msgstr "API de CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:130
 msgid "Quick Reference"
-msgstr ""
+msgstr "Référence rapide"
 
 #: \cake\libs\view\pages\home.ctp:131
 msgid "The Bakery"
-msgstr ""
+msgstr "La Bakery"
 
 #: \cake\libs\view\pages\home.ctp:132
 msgid "Everything CakePHP"
-msgstr ""
+msgstr "Tout sur CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:133
 msgid "The Show"
-msgstr ""
+msgstr "L'émission"
 
 #: \cake\libs\view\pages\home.ctp:134
 msgid "The Show is a live and archived internet radio broadcast CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
-msgstr ""
+msgstr "L'émission est une radio diffusée sur internet en direct puis archivée, concernant des sujets liés à CakePHP et répondant aux questions posées directement depuis IRC, Skype ou par téléphone."
 
 #: \cake\libs\view\pages\home.ctp:135
 msgid "CakePHP Google Group"
-msgstr ""
+msgstr "Le google group de CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:136
 msgid "Community mailing list"
-msgstr ""
+msgstr "La mailing-list de la communauté"
 
 #: \cake\libs\view\pages\home.ctp:138
 msgid "Live chat about CakePHP"
-msgstr ""
+msgstr "Chat en direct sur CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:139
 msgid "CakePHP Trac"
-msgstr ""
+msgstr "Trac de CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:140
 msgid "For the Development of CakePHP (Tickets, SVN browser, Roadmap, Changelogs)"
-msgstr ""
+msgstr "Pour le développement de CakePHP (Tickets, navigateur SVN, feuille de route, changelogs)"
 
 #: \cake\libs\view\pages\home.ctp:141
 msgid "CakeForge"
-msgstr ""
+msgstr "CakeForge"
 
 #: \cake\libs\view\pages\home.ctp:142
 msgid "Open Development for CakePHP"
-msgstr ""
+msgstr "Développement ouvert pour CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:143
 msgid "Book Store"
-msgstr ""
+msgstr "Livres en vente"
 
 #: \cake\libs\view\pages\home.ctp:144
 msgid "Recommended Software Books"
-msgstr ""
+msgstr "Livres de programmation recommandés"
 
 #: \cake\libs\view\pages\home.ctp:145
 msgid "CakePHP gear"
-msgstr ""
+msgstr "Gadgets CakePHP"
 
 #: \cake\libs\view\pages\home.ctp:146
 msgid "Get your own CakePHP gear - Doughnate to Cake"
-msgstr ""
+msgstr "Obtenez votre propre gadget CakePHP - Donnez à Cake"
 
 #: \cake\libs\view\scaffolds\edit.ctp:35
 #: \cake\libs\view\scaffolds\index.ctp:67
@@ -1706,7 +1707,7 @@ msgstr "Nouveau %s"
 
 #: \cake\libs\view\scaffolds\index.ctp:37
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: \cake\libs\view\scaffolds\index.ctp:65
 #: \cake\libs\view\scaffolds\view.ctp:144
@@ -1735,5 +1736,5 @@ msgstr "Supprimer %s"
 
 #: \cake\libs\view\scaffolds\view.ctp:79;118
 msgid "Related %s"
-msgstr ""
+msgstr "Lié à %s"
 
