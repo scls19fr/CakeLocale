@@ -543,11 +543,11 @@ msgstr "Voulez vous utiliser le scaffolding (prototypage rapide) ?"
 
 #: \cake\console\libs\tasks\controller.php:138;164
 msgid "Would you like to include some basic class methods (index(), add(), view(), edit())?"
-msgstr ""
+msgstr "Voulez vous inclure des méthodes de base (index(), add(), view(), edit()) ?"
 
 #: \cake\console\libs\tasks\controller.php:141;167
 msgid "Would you like to create the methods for admin routing?"
-msgstr ""
+msgstr "Voulez vous créer des méthodes pour le routage admin ?"
 
 #: \cake\console\libs\tasks\controller.php:144
 msgid "Would you like this controller to use other helpers besides HtmlHelper and FormHelper?"
@@ -558,38 +558,42 @@ msgid ""
 "Please provide a comma separated list of the other helper names you'd like to use.\n"
 "Example: 'Ajax, Javascript, Time'"
 msgstr ""
+"Merci de fournir la liste des noms des autres helpers que vous souhaitez utiliser, séparés par une virgule.\n"
+"Exemple : 'Ajax, Javascript, Time'"
 
 #: \cake\console\libs\tasks\controller.php:151
 msgid "Would you like this controller to use any components?"
-msgstr ""
+msgstr "Voulez vous que ce contrôleur utilise des composants ?"
 
 #: \cake\console\libs\tasks\controller.php:154
 msgid ""
 "Please provide a comma separated list of the component names you'd like to use.\n"
 "Example: 'Acl, Security, RequestHandler'"
 msgstr ""
+"Merci de fournir la liste des noms des composants que vous souhaitez utiliser, séparés par une virgule.\n"
+"Exemple : 'Acl, Security, RequestHandler'"
 
 #: \cake\console\libs\tasks\controller.php:159
 msgid "Would you like to use Sessions?"
-msgstr ""
+msgstr "Voulez vous utiliser les Sessions ?"
 
 #: \cake\console\libs\tasks\controller.php:219
 #: \cake\console\libs\tasks\model.php:202
 msgid "Look okay?"
-msgstr ""
+msgstr "Est-ce que cela vous semble correct ?"
 
 #: \cake\console\libs\tasks\controller.php:248
 msgid "You must have a model for this class to build scaffold methods. Please try again."
-msgstr ""
+msgstr "Vous devez avoir un modèle pour cette classe afin de construire des méthodes de scaffolding. Merci de réessayer."
 
 #: \cake\console\libs\tasks\controller.php:509
 #: \cake\console\libs\tasks\model.php:761
 msgid "Your database does not have any tables."
-msgstr ""
+msgstr "Votre base de données ne contient aucune table."
 
 #: \cake\console\libs\tasks\controller.php:536
 msgid "Enter a number from the list above, type in the name of another controller, or 'q' to exit"
-msgstr ""
+msgstr "Saisissez un chiffre de la liste ci-dessous, tapez le nom d'un autre contrôleur, or 'q' pour quitter"
 
 #: \cake\console\libs\tasks\controller.php:539
 #: \cake\console\libs\tasks\model.php:792
@@ -604,571 +608,575 @@ msgstr "Erreur :"
 msgid ""
 "The Controller name you supplied was empty, or the number \n"
 "you selected was not an option. Please try again."
-msgstr ""
+msgstr "Le nom de Contrôleur que vous avez fourni était vide ou le numéro choisi n'était pas une option possible. Merci de réessayer."
 
 #: \cake\console\libs\tasks\model.php:100
 msgid "Use Database Config"
-msgstr ""
+msgstr "Configuration de base de données à utiliser"
 
 #: \cake\console\libs\tasks\model.php:111
 msgid "Given your model named '%s', Cake would expect a database table named %s"
-msgstr ""
+msgstr "D'après votre modèle nommé '%s', Cake s'attend à trouver une table nommée %s"
 
 #: \cake\console\libs\tasks\model.php:112
 msgid "Do you want to use this table?"
-msgstr ""
+msgstr "Voulez vous utiliser cette table ?"
 
 #: \cake\console\libs\tasks\model.php:116;123
 msgid "What is the name of the table (enter \"null\" to use NO table)?"
-msgstr ""
+msgstr "Quel est le nom de la table (saisissez \"null\" pour n'utiliser AUCUNE table) ?"
 
 #: \cake\console\libs\tasks\model.php:130
 msgid "Would you like to supply validation criteria for the fields in your model?"
-msgstr ""
+msgstr "Voulez vous saisir des critères de validation pour les champs de votre modèle ?"
 
 #: \cake\console\libs\tasks\model.php:143
 msgid "What is the primaryKey?"
-msgstr ""
+msgstr "Quelle est la clé primaire ?"
 
 #: \cake\console\libs\tasks\model.php:151
 msgid "Would you like to define model associations (hasMany, hasOne, belongsTo, etc.)?"
-msgstr ""
+msgstr "Voulez vous définir des associations de modèles (hasMany, hasOne, belongsTo, etc...) ?"
 
 #: \cake\console\libs\tasks\model.php:158
 msgid "The following Model will be created:"
-msgstr ""
+msgstr "Le Modèle suivant sera créé : "
 
 #: \cake\console\libs\tasks\model.php:309
 msgid "One moment while the associations are detected."
-msgstr ""
+msgstr "Un petit moment le temps que les associations soient détectées."
 
 #: \cake\console\libs\tasks\model.php:392
 msgid "None found."
-msgstr ""
+msgstr "Aucune trouvée."
 
 #: \cake\console\libs\tasks\model.php:394
 msgid "Please confirm the following associations:"
-msgstr ""
+msgstr "Merci de confirmer les associations suivantes : "
 
 #: \cake\console\libs\tasks\model.php:415
 msgid "This is a self join. Use %s as the alias"
-msgstr ""
+msgstr "Ceci est une auto-jointure. Utilisez %s comme alias"
 
 #: \cake\console\libs\tasks\model.php:418
 msgid "Specify an alternate alias."
-msgstr ""
+msgstr "Spécifiez un alias alternatif."
 
 #: \cake\console\libs\tasks\model.php:430
 msgid "Would you like to define some additional model associations?"
-msgstr ""
+msgstr "Voulez vous définir des associations de modèles supplémentaires ?"
 
 #: \cake\console\libs\tasks\model.php:436
 msgid "What is the association type?"
-msgstr ""
+msgstr "Quel est le type d'association ?"
 
 #: \cake\console\libs\tasks\model.php:441;476
 msgid "Enter a number"
-msgstr ""
+msgstr "Saisissez un nombre"
 
 #: \cake\console\libs\tasks\model.php:444
 msgid "The selection you entered was invalid. Please enter a number between 1 and 4."
-msgstr ""
+msgstr "La sélection saisie est invalide. Merci de saisir un nombre entre 1 et 4."
 
 #: \cake\console\libs\tasks\model.php:449
 msgid "For the following options be very careful to match your setup exactly. Any spelling mistakes will cause errors."
-msgstr ""
+msgstr "Soyez très attentif à ce que les options suivantes correspondent parfaitement à votre configuration. Toute faute de frappe engendrera des erreurs."
 
 #: \cake\console\libs\tasks\model.php:451
 msgid "What is the alias for this association?"
-msgstr ""
+msgstr "Quel est l'alias pour cette association ?"
 
 #: \cake\console\libs\tasks\model.php:452
 msgid "What className will %s use?"
-msgstr ""
+msgstr "Quel nom de classe utilisera %s ?"
 
 #: \cake\console\libs\tasks\model.php:466
 msgid "What is the table for this model?"
-msgstr ""
+msgstr "Quelle est la table pour ce modèle ?"
 
 #: \cake\console\libs\tasks\model.php:472
 msgid "A helpful List of possible keys"
-msgstr ""
+msgstr "Une liste utile de clés possibles"
 
 #: \cake\console\libs\tasks\model.php:476
 msgid "What is the foreignKey?"
-msgstr ""
+msgstr "Quelle est la clé étrangère (foreignKey) ?"
 
 #: \cake\console\libs\tasks\model.php:482
 msgid "What is the foreignKey? Specify your own."
-msgstr ""
+msgstr "Quelle est la clé étrangère (foreignKey) ? Saisissez la votre."
 
 #: \cake\console\libs\tasks\model.php:485
 msgid "What is the associationForeignKey?"
-msgstr ""
+msgstr "Quelle est la clé étrangère d'association (associationForeignkey) ?"
 
 #: \cake\console\libs\tasks\model.php:486
 msgid "What is the joinTable?"
-msgstr ""
+msgstr "Quelle est la table de jointure (joinTable) ?"
 
 #: \cake\console\libs\tasks\model.php:498
 msgid "Define another association?"
-msgstr ""
+msgstr "VOulez vous définir d'autres associations ?"
 
 #: \cake\console\libs\tasks\model.php:768
 msgid "Possible Models based on your current database:"
-msgstr ""
+msgstr "Modèles possibles d'après votre base de données actuelle :"
 
 #: \cake\console\libs\tasks\model.php:789
 msgid "Enter a number from the list above, type in the name of another model, or 'q' to exit"
-msgstr ""
+msgstr "Saisissez un chiffre de la liste ci-dessous, tapez le nom d'un autre modèle, ou 'q' pour quitter"
 
 #: \cake\console\libs\tasks\model.php:797
 msgid "The model name you supplied was empty, or the number you selected was not an option. Please try again."
-msgstr ""
+msgstr "Le nom du modèle renseigné était vide, ou le numéro sélectionné n'était pas une option. Merci de réessayer."
 
 #: \cake\console\libs\tasks\plugin.php:112
 msgid "Enter the name of the plugin in CamelCase format"
-msgstr ""
+msgstr "Saisissez le nom du plugin au format \"CamelCase\""
 
 #: \cake\console\libs\tasks\plugin.php:116
 msgid "An error occured trying to bake: %s in %s"
-msgstr ""
+msgstr "Une erreur est survenue durant la cuisson : %s dans %s"
 
 #: \cake\console\libs\tasks\plugin.php:140
 #: \cake\console\libs\tasks\project.php:148
 msgid "Do you want verbose output?"
-msgstr ""
+msgstr "Voulez vous une sortie verbeuse ?"
 
 #: \cake\console\libs\tasks\plugin.php:177
 #: \cake\console\libs\tasks\project.php:153
 msgid "Created: %s in %s"
-msgstr ""
+msgstr "Créé : %s dans %s"
 
 #: \cake\console\libs\tasks\project.php:81
 msgid "Welcome page created"
-msgstr ""
+msgstr "Page d'accueil créée"
 
 #: \cake\console\libs\tasks\project.php:83
 msgid "The Welcome page was NOT created"
-msgstr ""
+msgstr "La page d'accueil n'a PAS été créée"
 
 #: \cake\console\libs\tasks\project.php:87
 msgid "Random hash key created for 'Security.salt'"
-msgstr ""
+msgstr "Clé de hash aléatoirement générée pour 'Security.salt'"
 
 #: \cake\console\libs\tasks\project.php:89
 msgid "Unable to generate random hash for 'Security.salt', you should change it in %s"
-msgstr ""
+msgstr "Impossible de générer un hash aléatoire pour 'Security.salt', vous devriez la modifier dans %s"
 
 #: \cake\console\libs\tasks\project.php:94
 msgid "CAKE_CORE_INCLUDE_PATH set to %s in webroot/index.php"
-msgstr ""
+msgstr "CAKE_CORE_INCLUDE_PATH fixé à %s dans webroot/index.php"
 
 #: \cake\console\libs\tasks\project.php:95
 msgid "CAKE_CORE_INCLUDE_PATH set to %s in webroot/test.php"
-msgstr ""
+msgstr "CAKE_CORE_INCLUDE_PATH fixé à %s dans webroot/test.php"
 
 #: \cake\console\libs\tasks\project.php:96
 msgid "Remember to check these value after moving to production server"
-msgstr ""
+msgstr "N'oubliez pas de vérifier ces valeurs lorsque vous passerez sur le serveur de production"
 
 #: \cake\console\libs\tasks\project.php:98
 msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
-msgstr ""
+msgstr "Impossible de définir CAKE_CORE_INCLUDE_PATH, vous devriez faire la modification dans %s"
 
 #: \cake\console\libs\tasks\project.php:102
 msgid "Could not set permissions on %s"
-msgstr ""
+msgstr "Impossible de définir les permissions sur %s"
 
 #: \cake\console\libs\tasks\project.php:103
 msgid "chmod -R 0777 %s"
-msgstr ""
+msgstr "chmod -R 0777 %s"
 
 #: \cake\console\libs\tasks\project.php:128
 msgid ""
 "What is the path to the directory layout you wish to copy?\n"
 "Example: %s"
 msgstr ""
+"Quel est le chemin vers le dossier gabarit que vous souhaitez copier ?\n"
+"Exemple : %s"
 
 #: \cake\console\libs\tasks\project.php:130
 msgid "The directory path you supplied was empty. Please try again."
-msgstr ""
+msgstr "Le chemin que vous avez saisi était vide. Merci de réessayer."
 
 #: \cake\console\libs\tasks\project.php:133
 msgid "Directory path does not exist please choose another:"
-msgstr ""
+msgstr "Le chemin n'existe pas. Merci d'en choisir un autre :"
 
 #: \cake\console\libs\tasks\test.php:102
 msgid "Enter the class to test or (q)uit"
-msgstr ""
+msgstr "Saisissez la classe à tester ou (q)uittez"
 
 #: \cake\console\libs\tasks\test.php:110
 msgid "Enter the name for the test or (q)uit"
-msgstr ""
+msgstr "Saisissez le nom à tester ou (q)uittez"
 
 #: \cake\console\libs\tasks\test.php:114
 msgid "Enter a test case or (q)uit"
-msgstr ""
+msgstr "Saisissez un cas d'utilisation ou (q)uittez"
 
 #: \cake\console\libs\tasks\test.php:120
 msgid "Test baked\n"
-msgstr ""
+msgstr "Les tests sont cuits\n"
 
 #: \cake\console\libs\tasks\test.php:178
 msgid "Is this correct?"
-msgstr ""
+msgstr "Est-ce correct ?"
 
 #: \cake\console\libs\tasks\view.php:236
 msgid "Controller not found"
-msgstr ""
+msgstr "Contrôleur introuvable"
 
 #: \cake\console\libs\tasks\view.php:246
 msgid ""
 "The file '%s' could not be found.\n"
 "In order to bake a view, you'll need to first create the controller."
 msgstr ""
+"Le fichier '%s' est introuvable.\n"
+"Afin de pouvoir cuisiner une vue, vous devez d'abord créer le contrôleur."
 
 #: \cake\console\libs\tasks\view.php:347
 msgid "Template for %s could not be found"
-msgstr ""
+msgstr "Gabarit introuvable pour %s"
 
 #: \cake\console\libs\templates\skel\views\layouts\default.ctp:30
 #: \cake\libs\view\layouts\default.ctp:30
 msgid "CakePHP: the rapid development php framework:"
-msgstr ""
+msgstr "CakePHP : le framework de développement rapide php :"
 
 #: \cake\console\libs\templates\skel\views\layouts\default.ctp:44;55
 #: \cake\libs\view\layouts\default.ctp:44;55
 msgid "CakePHP: the rapid development php framework"
-msgstr ""
+msgstr "CakePHP : le framework de développement rapide php"
 
 #: \cake\libs\cache.php:452
 msgid "Method write() not implemented in %s"
-msgstr ""
+msgstr "Méthode write() non implémentée dans %s"
 
 #: \cake\libs\cache.php:462
 msgid "Method read() not implemented in %s"
-msgstr ""
+msgstr "Méthode read() non implémentée dans %s"
 
 #: \cake\libs\class_registry.php:152
 msgid "(ClassRegistry::init() could not create instance of %1$s class %2$s "
-msgstr ""
+msgstr "(ClassRegistry::init() ne peut pas créer une instance de la classe %1$s %2$s "
 
 #: \cake\libs\class_registry.php:162
 msgid "(ClassRegistry::init() Attempted to create instance of a class with a numeric name"
-msgstr ""
+msgstr "(ClassRegistry::init() A essayé de créer l'instance d'une classe ayant un nom numérique"
 
 #: \cake\libs\configure.php:420
 msgid "Configure::load() - no variable $config found in %s.php"
-msgstr ""
+msgstr "Configure::load() - aucune variable $config trouvée dans %s.php"
 
 #: \cake\libs\configure.php:652
 msgid "Can't find application core file. Please create %score.php, and make sure it is readable by PHP."
-msgstr ""
+msgstr "Impossible de trouver le fichier du coeur de l'application. Merci de créer %score.php, et de vous assurer qu'il est lisible par PHP."
 
 #: \cake\libs\configure.php:656
 msgid "Can't find application bootstrap file. Please create %sbootstrap.php, and make sure it is readable by PHP."
-msgstr ""
+msgstr "Impossible de trouver le fichier de bootstrap de l'application. Merci de créer %sbootstrap.php, et de vous assurer qu'il est lisible par PHP."
 
 #: \cake\libs\debugger.php:557
 msgid "Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application"
-msgstr ""
+msgstr "Merci de changer la valeur de 'Security.salt' dans app/config/core.php et de lui donner une valeur spécifique à votre application"
 
 #: \cake\libs\error.php:153
 msgid "Not Found"
-msgstr ""
+msgstr "Introuvable"
 
 #: \cake\libs\error.php:172
 #: \cake\libs\view\errors\missing_controller.ctp:25
 msgid "Missing Controller"
-msgstr ""
+msgstr "Contrôleur manquant"
 
 #: \cake\libs\error.php:190
 msgid "Missing Method in Controller"
-msgstr ""
+msgstr "Méthode manquante dans le Contrôleur"
 
 #: \cake\libs\error.php:206
 msgid "Trying to access private method in class"
-msgstr ""
+msgstr "Tentative d'accès à une méthode privée de la classe"
 
 #: \cake\libs\error.php:222
 #: \cake\libs\view\errors\missing_table.ctp:25
 msgid "Missing Database Table"
-msgstr ""
+msgstr "Table manquante dans la base de données"
 
 #: \cake\libs\error.php:234
 msgid "Scaffold Missing Database Connection"
-msgstr ""
+msgstr "Scaffold ne trouve pas de connection à la base de données"
 
 #: \cake\libs\error.php:251
 #: \cake\libs\view\errors\missing_view.ctp:25
 msgid "Missing View"
-msgstr ""
+msgstr "Vue manquante"
 
 #: \cake\libs\error.php:267
 #: \cake\libs\view\errors\missing_layout.ctp:25
 msgid "Missing Layout"
-msgstr ""
+msgstr "Gabarit manquant"
 
 #: \cake\libs\error.php:282
 #: \cake\libs\view\errors\missing_connection.ctp:25
 #: \cake\libs\view\errors\missing_scaffolddb.ctp:25
 msgid "Missing Database Connection"
-msgstr ""
+msgstr "Connexion à la base de données manquante"
 
 #: \cake\libs\error.php:298
 #: \cake\libs\view\errors\missing_helper_file.ctp:25
 msgid "Missing Helper File"
-msgstr ""
+msgstr "Fichier du Helper manquant"
 
 #: \cake\libs\error.php:314
 #: \cake\libs\view\errors\missing_helper_class.ctp:25
 msgid "Missing Helper Class"
-msgstr ""
+msgstr "Classe du Helper manquante"
 
 #: \cake\libs\error.php:331
 #: \cake\libs\view\errors\missing_component_file.ctp:25
 msgid "Missing Component File"
-msgstr ""
+msgstr "Fichier du Composant manquant"
 
 #: \cake\libs\error.php:348
 #: \cake\libs\view\errors\missing_component_class.ctp:25
 msgid "Missing Component Class"
-msgstr ""
+msgstr "Classe du Composant manquante"
 
 #: \cake\libs\error.php:363
 #: \cake\libs\view\errors\missing_model.ctp:25
 msgid "Missing Model"
-msgstr ""
+msgstr "Modèle manquant"
 
 #: \cake\libs\folder.php:357;378
 msgid "%s changed to %s"
-msgstr ""
+msgstr "%s modifié en %s"
 
 #: \cake\libs\folder.php:361;380
 msgid "%s NOT changed to %s"
-msgstr ""
+msgstr "%s NON modifié en %s"
 
 #: \cake\libs\folder.php:458
 msgid "%s is a file"
-msgstr ""
+msgstr "%s est un fichier"
 
 #: \cake\libs\folder.php:468;617
 msgid "%s created"
-msgstr ""
+msgstr "%s créé"
 
 #: \cake\libs\folder.php:472
 msgid "%s NOT created"
-msgstr ""
+msgstr "%s NON créé"
 
 #: \cake\libs\folder.php:542;556
 msgid "%s removed"
-msgstr ""
+msgstr "%s supprimé"
 
 #: \cake\libs\folder.php:544;553
 msgid "%s NOT removed"
-msgstr ""
+msgstr "%s NON supprimé"
 
 #: \cake\libs\folder.php:590
 msgid "%s not writable"
-msgstr ""
+msgstr "%s non enregistrable"
 
 #: \cake\libs\folder.php:604
 msgid "%s copied to %s"
-msgstr ""
+msgstr "%s copié vers %s"
 
 #: \cake\libs\folder.php:606
 msgid "%s NOT copied to %s"
-msgstr ""
+msgstr "%s NON copié vers %s"
 
 #: \cake\libs\folder.php:621
 msgid "%s not created"
-msgstr ""
+msgstr "%s non créé"
 
 #: \cake\libs\http_socket.php:437
 msgid "HttpSocket::decodeBody - Unknown encoding: %s. Activate quirks mode to surpress error."
-msgstr ""
+msgstr "HttpSocket::decodeBody - Encodage %s inconnu. Activez le quirks mode pour ignorer l'erreur."
 
 #: \cake\libs\http_socket.php:462
 msgid "HttpSocket::decodeChunkedBody - Could not parse malformed chunk. Activate quirks mode to do this."
-msgstr ""
+msgstr "HttpSocket::decodeChunkedBody - Impossible de parser un tronçon mal formé. Activez le quirks mode pour le faire."
 
 #: \cake\libs\http_socket.php:719
 msgid "HttpSocket::buildRequestLine - Passed an invalid request line string. Activate quirks mode to do this."
-msgstr ""
+msgstr "HttpSocket::buildRequestLine - La ligne de requête passée est invalide. Activez le quirks mode pour le faire."
 
 #: \cake\libs\http_socket.php:734
 msgid "HttpSocket::buildRequestLine - The \"*\" asterisk character is only allowed for the following methods: %s. Activate quirks mode to work outside of HTTP/1.1 specs."
-msgstr ""
+msgstr "HttpSocket::buildRequestLine - L'astérisque \"*\"  n'est autorisé que pour les méthodes suivantes : %s. Activez le quirks mode pour fonctionner sns tenir compte des spécifications HTTP/1.1."
 
 #: \cake\libs\overloadable_php4.php:75;132
 #: \cake\libs\overloadable_php5.php:50;80
 msgid "Magic method handler call__ not defined in %s"
-msgstr ""
+msgstr "Méthode magique call__ non définie dans %s"
 
 #: \cake\libs\security.php:174
 msgid "You cannot use an empty key for Security::cipher()"
-msgstr ""
+msgstr "Vous ne pouvez pas utiliser une clé vide pour Security::cipher()"
 
 #: \cake\libs\session.php:459
 msgid "You must set the all Configure::write('Session.*') in core.php to use database storage"
-msgstr ""
+msgstr "Vous devez définir toutes les clés Configure::write('Session.*') dans core.php pour utiliser le stockage par base de données"
 
 #: \cake\libs\validation.php:350
 msgid "You must define the $operator parameter for Validation::comparison()"
-msgstr ""
+msgstr "Vous devez définir le paramètre $operator pour Validation::comparison()"
 
 #: \cake\libs\validation.php:373
 msgid "You must define a regular expression for Validation::custom()"
-msgstr ""
+msgstr "Vous devez définir une expression régulière pour Validation::custom()"
 
 #: \cake\libs\cache\file.php:263
 msgid "%s is not writable"
-msgstr ""
+msgstr "%s est non enregistrable"
 
 #: \cake\libs\controller\controller.php:328
 msgid "Controller::__construct() : Can not get or parse my own class name, exiting."
-msgstr ""
+msgstr "Controller::__construct() : Impossible de récupérer ou parser mon propre nom de classe, adieu."
 
 #: \cake\libs\controller\controller.php:703
 #: \cake\libs\controller\components\auth.php:516
 msgid "%s::isAuthorized() is not defined."
-msgstr ""
+msgstr "%s::isAuthorized() n'est pas défini."
 
 #: \cake\libs\controller\controller.php:972
 msgid "Controller::paginate() - can't find model %1$s in controller %2$sController"
-msgstr ""
+msgstr "Controller::paginate() - impossible de trouver le modèle %1$s dans le contrôleur %2$sController"
 
 #: \cake\libs\controller\scaffold.php:157
 msgid "Scaffold :: "
-msgstr ""
+msgstr "Scaffold :: "
 
 #: \cake\libs\controller\scaffold.php:200;203
 msgid "No id set for %s::view()"
-msgstr ""
+msgstr "Aucun id défini pour %s::view()"
 
 #: \cake\libs\controller\scaffold.php:253
 msgid "updated"
-msgstr ""
+msgstr "mis à jour"
 
 #: \cake\libs\controller\scaffold.php:256
 msgid "saved"
-msgstr ""
+msgstr "sauvegardé"
 
 #: \cake\libs\controller\scaffold.php:267;270
 msgid "Invalid id for %s::edit()"
-msgstr ""
+msgstr "Id invalide pour %s::edit()"
 
 #: \cake\libs\controller\scaffold.php:283;286
 msgid "The %1$s has been %2$s"
-msgstr ""
+msgstr "Le %1$s a été %2$s"
 
 #: \cake\libs\controller\scaffold.php:293
 msgid "Please correct errors below."
-msgstr ""
+msgstr "Merci de corriger les erreurs ci-dessous."
 
 #: \cake\libs\controller\scaffold.php:332;335
 msgid "No id set for %s::delete()"
-msgstr ""
+msgstr "Aucun id défini pour %s::delete()"
 
 #: \cake\libs\controller\scaffold.php:341;344
 msgid "The %1$s with id: %2$d has been deleted."
-msgstr ""
+msgstr "Le %1$s ayant pour id : %2$d a été supprimé."
 
 #: \cake\libs\controller\scaffold.php:348;351
 msgid "There was an error deleting the %1$s with id: %2$d"
-msgstr ""
+msgstr "Une erreur est survenue lors de la suppression de %1$s ayant pour id: %2$d"
 
 #: \cake\libs\controller\components\acl.php:56
 msgid "Could not find %s."
-msgstr ""
+msgstr "Impossible de trouver %s."
 
 #: \cake\libs\controller\components\acl.php:167
 msgid "[acl_base] The AclBase class constructor has been called, or the class was instantiated. This class must remain abstract. Please refer to the Cake docs for ACL configuration."
-msgstr ""
+msgstr "[acl_base] Le constructeur de la classe AclBase a été appelé, ou la classe instanciée. Cette classe doit rester abstraite. Merci de se référer à la documentation de Cake concernant la configuration des ACL."
 
 #: \cake\libs\controller\components\acl.php:252
 msgid "ACO permissions key %s does not exist in DbAcl::check()"
-msgstr ""
+msgstr "Les clés de permissions ACO %s n'existent pas dans DbAcl::check()"
 
 #: \cake\libs\controller\components\acl.php:325
 msgid "DbAcl::allow() - Invalid node"
-msgstr ""
+msgstr "DbAcl::allow() - Noeud invalide"
 
 #: \cake\libs\controller\components\auth.php:417
 msgid "Could not find $userModel. Please set AuthComponent::$userModel in beforeFilter()."
-msgstr ""
+msgstr "$userModel introuvable. Merci de renseigner AuthComponent::$userModel dans beforeFilter()."
 
 #: \cake\libs\controller\components\auth.php:427
 msgid "Login failed. Invalid username or password."
-msgstr ""
+msgstr "Connexion impossible. Nom d'utilisateur ou mot de passe invalide."
 
 #: \cake\libs\controller\components\auth.php:428
 msgid "You are not authorized to access that location."
-msgstr ""
+msgstr "Vous n'êtes pas autorisé à accéder à cet endroit."
 
 #: \cake\libs\controller\components\auth.php:510
 msgid "Could not find %s. Set AuthComponent::$object in beforeFilter() or pass a valid object"
-msgstr ""
+msgstr "%s introuvable. Renseignez AuthComponent::$object dans beforeFilter() ou passez un objet valide"
 
 #: \cake\libs\controller\components\auth.php:524
 msgid "Auth::isAuthorized() - $authorize is set to an incorrect value.  Allowed settings are: \"actions\", \"crud\", \"model\" or null."
-msgstr ""
+msgstr "Auth::isAuthorized() - $authorize contient une valeur incorrecte. Les paramètres autorisés sont : \"actions\", \"crud\", \"model\" ou null."
 
 #: \cake\libs\controller\components\auth.php:756
 msgid "Auth::getModel() - Model is not set or could not be found"
-msgstr ""
+msgstr "Auth::getModel() - Le modèle n'est pas défini ou est introuvable"
 
 #: \cake\libs\controller\components\security.php:301
 msgid "SecurityComponent::loginCredentials() - Server does not support digest authentication"
-msgstr ""
+msgstr "SecurityComponent::loginCredentials() - Le serveur ne supporte pas l'authentification digeste"
 
 #: \cake\libs\model\connection_manager.php:109
 msgid "ConnectionManager::getDataSource - Non-existent data source %s"
-msgstr ""
+msgstr "ConnectionManager::getDataSource - Source de données %s inexistante"
 
 #: \cake\libs\model\connection_manager.php:178
 msgid "Unable to load DataSource file %s.php"
-msgstr ""
+msgstr "Impossible de charger le fichier de Source de Données %s.php"
 
 #: \cake\libs\model\model.php:896
 msgid "(Model::getColumnTypes) Unable to build model field data. If you are using a model without a database table, try implementing schema()"
-msgstr ""
+msgstr "(Model::getColumnTypes) Impossible de construire les données des champs du modèle. Si vous utilisez un modèle sans table de base de données, essayez d'implémenter schema()"
 
 #: \cake\libs\model\model.php:2385
 msgid "This field cannot be left blank"
-msgstr ""
+msgstr "Ce champ doit être rempli"
 
 #: \cake\libs\model\model.php:2693
 msgid "Invalid join model settings in %s"
-msgstr ""
+msgstr "Paramètres de jointures entre modèles invalides dans %s"
 
 #: \cake\libs\model\behaviors\containable.php:340
 msgid "Model \"%s\" is not associated with model \"%s\""
-msgstr ""
+msgstr "Le modèle \"%s\" n'est pas associé avec le modèle \"%s\""
 
 #: \cake\libs\model\behaviors\translate.php:61
 msgid "Datasource %s for TranslateBehavior of model %s is not connected"
-msgstr ""
+msgstr "La source de données %s pour le TranslateBehavior du modèle %s n'est pas connectée"
 
 #: \cake\libs\model\behaviors\translate.php:432
 msgid "Association %s is already binded to model %s"
-msgstr ""
+msgstr "L'association %s est déjà reliée au modèle %s"
 
 #: \cake\libs\model\datasources\dbo_source.php:740
 #: \cake\libs\model\datasources\dbo\dbo_oracle.php:955
 msgid "SQL Error in model %s:"
-msgstr ""
+msgstr "Erreur SQL dans le modèle %s :"
 
 #: \cake\libs\model\datasources\dbo_source.php:2241;2298
 #: \cake\libs\model\datasources\dbo\dbo_mysql.php:265
 #: \cake\libs\model\datasources\dbo\dbo_oracle.php:1105
 msgid "Invalid schema object"
-msgstr ""
+msgstr "Schéma d'objet invalide"
 
 #: \cake\libs\model\datasources\dbo\dbo_oracle.php:557
 msgid "Must specify table to operate on constraints"
-msgstr ""
+msgstr "Vous devez spécifier une table pour opérer sur les contraintes"
 
 #: \cake\libs\model\datasources\dbo\dbo_oracle.php:615
 msgid "DboOracle::constraint() accepts only enable, disable, or list"
